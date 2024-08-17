@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/PortfolioTerry/static/css/main.4bd13f5a.css",
+    "main.js": "/PortfolioTerry/static/js/main.1ad0a60c.js",
+    "static/js/453.1407b060.chunk.js": "/PortfolioTerry/static/js/453.1407b060.chunk.js",
+    "static/media/Wallpaper2.webp": "/PortfolioTerry/static/media/Wallpaper2.5e8b6d721e095d2a2549.webp",
+    "static/media/Wallpaper3.webp": "/PortfolioTerry/static/media/Wallpaper3.bc26328cb0729cc6b841.webp",
+    "static/media/Wallpaper1.webp": "/PortfolioTerry/static/media/Wallpaper1.247c3fe3ed16fd456ada.webp",
+    "static/media/P6.webp": "/PortfolioTerry/static/media/P6.368756c99987ff95684d.webp",
+    "static/media/P3.webp": "/PortfolioTerry/static/media/P3.56e200f9a7e97b5d7cdd.webp",
+    "static/media/P4.webp": "/PortfolioTerry/static/media/P4.e98fcdf68b62abcb8a26.webp",
+    "static/media/P5.webp": "/PortfolioTerry/static/media/P5.2ffdc85d625c8dbe235b.webp",
+    "static/media/P2.webp": "/PortfolioTerry/static/media/P2.0a22bab5d18222252319.webp",
+    "index.html": "/PortfolioTerry/index.html",
+    "main.4bd13f5a.css.map": "/PortfolioTerry/static/css/main.4bd13f5a.css.map",
+    "main.1ad0a60c.js.map": "/PortfolioTerry/static/js/main.1ad0a60c.js.map",
+    "453.1407b060.chunk.js.map": "/PortfolioTerry/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4bd13f5a.css",
+    "static/js/main.1ad0a60c.js"
+  ]
+}
