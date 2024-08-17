@@ -1,0 +1,147 @@
+#presentation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+  }
+
+  .Titre1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+    margin-bottom: 3.5%;
+    height: 7.2vh;
+  }
+
+  .Titre1 h1 {
+    color: white;
+    text-transform: uppercase;
+  }
+  
+  .card {
+    width: 500px; 
+    height: 300px; 
+    overflow: hidden; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    border: 2px solid #ddd; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+    border-radius: 50px; 
+    margin-bottom: 3.5%;
+  }
+  
+  .card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    object-position: center;
+  }
+  
+  .paragraph1 {
+    padding: 0 25px;
+    font-size: 22.5px;
+    font-weight: bold;
+    font-weight: 300;
+    line-height: 1.4;
+    color: white;
+    margin-top: 1.5%;
+    background-color: rgba(0, 0, 0, 0.75);
+  }
+
+  @media (max-width: 1440px) {
+    .Titre1 {
+      margin-top: 2vh;
+      align-items: center;
+    }
+    .card {
+      width: 450px; 
+      height: 270px; 
+      margin-bottom: 3%;
+      border-radius: 45px; 
+    }
+  
+    .paragraph1 {
+      font-size: 21px; 
+      padding: 0 20px; 
+    }
+  
+    .Titre1 h1 {
+      font-size: 28px;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    .Titre1 {
+      margin-top: 2.5vh;
+      align-items: center;
+    }
+    .card {
+      width: 400px;
+      height: 240px;
+      border-radius: 40px;
+    }
+  
+    .paragraph1 {
+      font-size: 19.5px;
+      padding: 0 15px;
+    }
+  
+    .Titre1 h1 {
+      font-size: 26px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .Titre1 {
+      margin-top: 4vh;
+      align-items: center;
+    }
+    .card {
+      width: 350px;
+      height: 210px;
+      border-radius: 35px;
+    }
+  
+    .paragraph1 {
+      font-size: 18px;
+      padding: 0 10px;
+    }
+  
+    .Titre1 h1 {
+      font-size: 24px;
+    }
+  }
+
+  @media (min-width: 320px) and (max-width: 480px) {
+    .Titre1 {
+      margin-top: 11vh;
+      align-items: center;
+      margin-bottom: 10%;
+    }
+    .card {
+      width: 85%;
+      height: 190px; 
+      border-radius: 30px;
+      margin-bottom: 10%;
+    }
+  
+    .card-img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+  
+    .paragraph1 {
+      font-size: 16px;
+      padding: 0 10px;
+    }
+  
+    .Titre1 h1 {
+      font-size: 20px;
+      padding: 10px 0;
+    }
+  }
+  

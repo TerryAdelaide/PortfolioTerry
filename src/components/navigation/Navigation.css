@@ -1,0 +1,8 @@
+.bodyBackgroundImage {
+  margin-top: 3.5%;
+    background-image: url('../../../public/photos/Wallpaper3.webp');
+    background-size: cover; /* Pour s'assurer que l'image couvre tout l'écran */
+    background-position: center; /* Pour centrer l'image */
+    height: 100vh; /* Pour s'assurer que la div couvre toute la hauteur de la fenêtre */
+  }
+  
