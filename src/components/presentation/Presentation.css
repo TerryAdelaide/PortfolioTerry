@@ -12,6 +12,7 @@
     background-color: rgba(0, 0, 0, 0.75);
     margin-bottom: 3.5%;
     height: 7.2vh;
+    margin-top: 0;
   }
 
   .Titre1 h1 {
@@ -53,7 +54,7 @@
 
   @media (max-width: 1440px) {
     .Titre1 {
-      margin-top: 2vh;
+      margin-top: 1vh;
       align-items: center;
     }
     .card {
