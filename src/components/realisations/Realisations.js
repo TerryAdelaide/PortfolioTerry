@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import './Realisations.css';
 import { dataRealisation } from './dataRealisation';
-import { Link } from 'react-router-dom';
 
 const Realisations = () => {
   const [activeCategory, setActiveCategory] = useState('all');
@@ -10,14 +9,6 @@ const Realisations = () => {
   const handleCategoryChange = (category) => {
     setActiveCategory(category);
     setClickedImage(null); // Réinitialiser l'image cliquée lors du changement de catégorie
-  };
-
-  const handleImageClick = (image) => {
-    if (clickedImage === image) {
-      setClickedImage(null); // Désélectionner si on clique sur la même image
-    } else {
-      setClickedImage(image); // Mettre à jour l'image cliquée
-    }
   };
 
   const isCategoryVisible = (category) => {
@@ -43,14 +34,15 @@ const Realisations = () => {
         {dataRealisation
           .filter((rea) => isCategoryVisible(rea.category)) // Filtre les réalisations en fonction de la catégorie active
           .map((rea) => (
-            <Link
+            <a
               key={rea.id}
-              to={rea.link}
+              href={rea.link}
               target="_blank"
+              rel="noreferrer"
               className={`rea visible`}
-              onClick={() => handleImageClick(rea.category)}
-              style={{ backgroundImage: `url(${rea.image})` }}
-            ></Link>
+            >
+              <img src={rea.image} />
+            </a>
           ))}
       </div>
     </div>

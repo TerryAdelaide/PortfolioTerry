@@ -6,15 +6,15 @@ import Competences from '../competences/Competences';
 const Home = () => {
   return (
     <main>
-      <section id="presentation">
+      <div id="presentation-projet">
         <Presentation />
-      </section>
-      <section id="realisations">
+      </div>
+      <div id="realisations-projet">
         <Realisations />
-      </section>
-      <section id="competences">
+      </div>
+      <div id="competences-projet">
         <Competences />
-      </section>
+      </div>
     </main>
   );
 };

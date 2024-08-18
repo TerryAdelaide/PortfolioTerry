@@ -1,16 +1,9 @@
 import React, { useState, useEffect } from 'react';
+import { data } from './data';
 import './Presentation.css';
 
 const Presentation = () => {
-  const [data, setData] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
-
-  useEffect(() => {
-    fetch('/data.json')
-      .then((response) => response.json())
-      .then((data) => setData(data))
-      .catch((error) => console.error('Error fetching data:', error));
-  }, []);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -19,25 +12,11 @@ const Presentation = () => {
       );
     }, 1750);
     return () => clearInterval(interval);
-  }, [data]);
+  });
 
-  const handleNext = () => {
-    setCurrentIndex((prevIndex) =>
-      prevIndex === data.length - 1 ? 0 : prevIndex + 1,
-    );
-  };
-
-  const handlePrev = () => {
-    setCurrentIndex((prevIndex) =>
-      prevIndex === 0 ? data.length - 1 : prevIndex - 1,
-    );
-  };
-
-  if (data.length === 0) {
-    return <div>Loading...</div>;
-  }
-
-  return (
+  return data.length === 0 ? (
+    <div>Loading...</div>
+  ) : (
     <div id="presentation">
       <div className="Titre1">
         <h1>Présentation</h1>

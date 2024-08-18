@@ -9,7 +9,7 @@ const Header = () => {
         <ul>
           <li className="align-left">
             <Link
-              to="presentation"
+              to="presentation-projet"
               smooth={true}
               duration={500}
               offset={-window.innerHeight * 0.075} // Défilement ajusté par rapport à la hauteur du header
@@ -19,7 +19,7 @@ const Header = () => {
           </li>
           <li>
             <Link
-              to="presentation"
+              to="presentation-projet"
               smooth={true}
               duration={500}
               offset={-window.innerHeight * 0.075} // Défilement ajusté par rapport à la hauteur du header
@@ -29,7 +29,7 @@ const Header = () => {
           </li>
           <li>
             <Link
-              to="realisations"
+              to="realisations-projet"
               smooth={true}
               duration={500}
               offset={-window.innerHeight * 0.075} // Défilement ajusté par rapport à la hauteur du header
@@ -39,7 +39,7 @@ const Header = () => {
           </li>
           <li>
             <Link
-              to="competences"
+              to="competences-projet"
               smooth={true}
               duration={500}
               offset={-window.innerHeight * 0.075} // Défilement ajusté par rapport à la hauteur du header
